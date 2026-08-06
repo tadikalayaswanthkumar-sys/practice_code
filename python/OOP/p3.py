@@ -43,3 +43,4 @@ my_car.accelerate(50)  # Updates and prints internal speed
 # Both objects have the 'make_sound' method but behave differently
 for vehicle in [my_car, my_bike]:
     print(f"{vehicle.brand} sound: {vehicle.make_sound()}")
+
